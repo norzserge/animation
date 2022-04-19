@@ -1,2 +1,2 @@
-# animation
-Different animation examples
+# Animation (CSS, JS)
+My animation lib
