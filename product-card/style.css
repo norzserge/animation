@@ -78,7 +78,7 @@ body {
 
  animation-name: move-shoe;
  animation-duration: 1.2s;
- animation-delay: 500ms;
+ animation-delay: 900ms;
  animation-fill-mode: backwards;
  animation-timing-function: cubic-bezier(.27,.93,.31,1.24);
 }
