@@ -9,3 +9,5 @@ Hover effects for [shop-cards](https://norzserge.github.io/animation/shop-cards/
 Elements animation in [product card](https://norzserge.github.io/animation/product-card/index.html)
 
 Animation for [burger menu](https://norzserge.github.io/animation/burger-menu/index.html)
+
+Infinite [slider](https://norzserge.github.io/animation/infinite-slider/index.html)
