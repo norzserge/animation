@@ -15,3 +15,5 @@ Infinite [slider](https://norzserge.github.io/animation/infinite-slider/index.ht
 [Slider](https://norzserge.github.io/animation/slider-with-text/index.html) with text
 
 Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index.html)
+
+Animation for [tabs](https://norzserge.github.io/animation/tabs/index.html)
