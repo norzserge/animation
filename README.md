@@ -7,3 +7,5 @@ Hover effects for [button](https://norzserge.github.io/animation/buttons/index.h
 Hover effects for [shop-cards](https://norzserge.github.io/animation/shop-cards/index.html)
 
 Elements animation in [product card](https://norzserge.github.io/animation/product-card/index.html)
+
+Animation for [burger menu](https://norzserge.github.io/animation/burger-menu/index.html)
