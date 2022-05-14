@@ -11,3 +11,4 @@ Elements animation in [product card](https://norzserge.github.io/animation/produ
 Animation for [burger menu](https://norzserge.github.io/animation/burger-menu/index.html)
 
 Infinite [slider](https://norzserge.github.io/animation/infinite-slider/index.html)
+[Slider](https://norzserge.github.io/animation/slider-with-text/index.html) with text
