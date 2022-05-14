@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	font-family: Arial;
+}
+
+.wrap {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.slider {
+	background-color: #eee;
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.slider-btn {
+	position: absolute;
+	top: 0px;
+  bottom: 0px;
+	z-index: 101;
+  padding: 10px 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-btn--prev {
+	left: 0px;
+}
+
+.slider-btn--prev img {
+	transform: rotate(180deg);
+}
+
+.slider-btn--next {
+	right: 0px;
+}
+
+.slider-img {
+	max-width: 100%;
+  height: 400px;
+	display: block;
+	object-fit: cover;
+}
+
+.slider-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	opacity: 0;
+
+	transition: opacity 0.5s ease;
+}
+
+.slider-item--current {
+	opacity: 1;
+}
+
