@@ -13,3 +13,5 @@ Animation for [burger menu](https://norzserge.github.io/animation/burger-menu/in
 Infinite [slider](https://norzserge.github.io/animation/infinite-slider/index.html)
 
 [Slider](https://norzserge.github.io/animation/slider-with-text/index.html) with text
+
+Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index.html)
