@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider with text</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrap">
+    <section class="slider">
+      <h2 class="visually-hidden">Мы предлагаем</h2>
+      <div class="slider-item slider-item--current">
+        <img class="slider-img" src="slide-1.jpeg" alt="slide">
+        <h3 class="slider-title">
+          <span class="slider-title-line">Производство</span>
+          <span class="slider-title-line">волшебных изделий</span>
+          <span class="slider-title-line">из металла и дерева</span>
+        </h3>
+      </div>
+      <div class="slider-item">
+        <img class="slider-img" src="slide-2.jpeg" alt="slide">
+        <h3 class="slider-title">
+          <span class="slider-title-line">Металлический</span>
+          <span class="slider-title-line">декор для дома</span>
+          <span class="slider-title-line">и дачи</span>
+        </h3>
+      </div>
+      <div class="slider-item">
+        <img class="slider-img" src="slide-3.jpeg" alt="slide">
+        <h3 class="slider-title">
+          <span class="slider-title-line">Ковка дизайнерских</span>
+          <span class="slider-title-line">каминов, перил</span>
+          <span class="slider-title-line">и скульптур</span>
+          </h3>
+      </div>
+
+      <button type="button" class="slider-btn slider-btn--prev" disabled>
+        <img src="arrow.svg" alt="prev">
+      </button>
+      <button type="button" class="slider-btn slider-btn--next">
+        <img src="arrow.svg" alt="next">
+      </button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
