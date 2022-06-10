@@ -18,4 +18,4 @@ Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index
 
 Animation for [tabs](https://norzserge.github.io/animation/tabs/index.html)
 
-Animation for [popup](https://norzserge.github.io/popup/index.html)
+Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
