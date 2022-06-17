@@ -272,6 +272,42 @@ body {
   margin: 0;
 }
 
+.slider__item--current .slider__title {
+  animation-name: slider-h1-anim;
+  animation-duration: 0.6s;
+  animation-delay: 0.3s;
+  animation-fill-mode: backwards;
+}
+
+.slider__item--current .slider__text {
+  animation-name: slider-text-anim;
+  animation-duration: 0.6s;
+  animation-delay: 0.3s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes slider-h1-anim {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slider-text-anim {
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .slider__togglers {
   margin: 0;
   padding: 0;
