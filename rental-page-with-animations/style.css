@@ -670,6 +670,8 @@ body {
   background-image: url("assets/icon-arrow-down.svg");
   background-repeat: no-repeat;
   background-position: center;
+
+  transition: transform 0.3s;
 }
 
 .faq__item--open .faq__question::after {
@@ -677,16 +679,14 @@ body {
 }
 
 .faq__answer {
-  max-height: 0px;
+  height: 0;
   font-size: 16px;
   line-height: 22px;
+
+  transition: height 0.3s ease;
 }
 
-.faq__item--open .faq__answer {
-  max-height: 100%;
-}
-
-.faq__answer * {
+.faq__answer p {
   margin-top: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }

@@ -26,16 +26,15 @@ const faqButtons = document.querySelectorAll('.faq__question');
 const FAQ_ITEM_OPENED = 'faq__item--open';
 
 function toggleAnswers(e) {
-  const currentFaqItem = e.target.closest('.faq__item');
+  const currentItem = e.target.parentElement;
+  const currentItemAnswer = currentItem.querySelector('.faq__answer');
 
-  if (currentFaqItem.classList.contains(FAQ_ITEM_OPENED)) {
-    currentFaqItem.classList.remove(FAQ_ITEM_OPENED);
+  if (currentItem.classList.contains(FAQ_ITEM_OPENED)) {
+    currentItem.classList.remove(FAQ_ITEM_OPENED);
+    currentItemAnswer.style.height = null;
   } else {
-    faqButtons.forEach(function(button) {
-      button.closest('.faq__item').classList.remove(FAQ_ITEM_OPENED);
-    });
-  
-    currentFaqItem.classList.add(FAQ_ITEM_OPENED);
+    currentItem.classList.add(FAQ_ITEM_OPENED);
+    currentItemAnswer.style.height = currentItemAnswer.scrollHeight + "px";
   }
 }
 
