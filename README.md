@@ -1,5 +1,6 @@
 # Animation (CSS, JS)
 
+## Elements
 Hover effects for [links](https://norzserge.github.io/animation/links/index.html)
 
 Hover effects for [button](https://norzserge.github.io/animation/buttons/index.html) 
@@ -20,4 +21,5 @@ Animation for [tabs](https://norzserge.github.io/animation/tabs/index.html)
 
 Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
 
-Animation for [landing](https://norzserge.github.io/animation/rental-page-with-animations/index.html)
+## Pages
+Animation for [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html)
