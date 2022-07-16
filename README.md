@@ -22,4 +22,4 @@ Animation for [tabs](https://norzserge.github.io/animation/tabs/index.html)
 Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
 
 ## Pages
-[Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
+Animation for [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html)
