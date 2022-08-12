@@ -24,5 +24,7 @@ Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
 [Sticky header](https://norzserge.github.io/animation/sticky-header/index.html)
  with back scrolled header 
 
+Calculating the [position](https://norzserge.github.io/animation/check-box-status-after-scroll/index.html) of the element when scrolling the page
+
 ## Pages
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
