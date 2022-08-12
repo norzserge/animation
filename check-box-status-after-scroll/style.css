@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+  padding: 30px;
+	font-family: Arial, sans-serif;
+}
+
+.result {
+  position: fixed;
+  background-color: #4EB543;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px;
+  width: 150px;
+  top: 10px;
+  right: 10px;
+}
+
+main {
+	display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: minmax(600px, 100vh) min-content minmax(600px, 100vh);
+}
+
+.block {
+  min-height: 600px;
+  background-color: #eeeeee;
+}
+
+.box {
+	background-color: #ffffff;
+	padding: 80px 10px;
+	border: 5px solid #4EB543;
+  margin: 20px 0;
+}
