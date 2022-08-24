@@ -22,7 +22,7 @@ const colorStep = (documentHeight - screenHeight) / 360;
 
 function scrolling() {
   const { scrollTop } = document.documentElement;
-  colorResultHSL = Math.ceil(scrollTop/step);
+  colorResultHSL = Math.ceil(scrollTop/colorStep);
 
   // если достигает начала документа, то сетаем значение дефолтного желтого цвета
   if (scrollTop === 0) {
