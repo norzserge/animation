@@ -26,5 +26,7 @@ Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
 
 Calculating the [position](https://norzserge.github.io/animation/check-box-status-after-scroll/index.html) of the element when scrolling the page
 
+[Appearing elements](https://norzserge.github.io/animation/appear-elements-after-scroll/index.html) after scroll
+
 ## Pages
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
