@@ -32,7 +32,9 @@ Change [body background](https://norzserge.github.io/animation/change-bg-with-sc
 
 [Scroll into view](https://norzserge.github.io/animation/scroll-into-view/index.html) - scroll page to top / center / botton position of the element.
 
-Horizontal scrolling with [mouse wheel](https://norzserge.github.io/animation/horizontal-scrolling-with-wheel/index.html)
+[Horizontal scrolling](https://norzserge.github.io/animation/horizontal-scrolling-with-wheel/index.html) with mouse wheel
+
+[Zoom element](https://norzserge.github.io/animation/zoom-with-wheel/index.html) with mouse wheel
 
 ## Pages
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
