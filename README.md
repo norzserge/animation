@@ -30,5 +30,7 @@ Calculating the [position](https://norzserge.github.io/animation/check-box-statu
 
 Change [body background](https://norzserge.github.io/animation/change-bg-with-scroll/index.html) with scrolling
 
+[Scroll into view](https://norzserge.github.io/animation/scroll-into-view/index.html) - scroll page to top / center / botton position of the element.
+
 ## Pages
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
