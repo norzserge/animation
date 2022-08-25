@@ -38,4 +38,5 @@ Change [body background](https://norzserge.github.io/animation/change-bg-with-sc
 
 ## Pages
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
+
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-scroll-animations/index.html) with scroll animation
