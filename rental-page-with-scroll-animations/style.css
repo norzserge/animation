@@ -15,9 +15,9 @@ button {
 }
 
 body {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
-  overflow-x: hidden;
+
   font-family: 'Manrope', Arial, sans-serif;
   font-size: 16px;
   background-color: #eeeeee;
@@ -41,6 +41,7 @@ body {
   height: 100%;
   transform-origin: left center;
   transform: scaleX(0);
+  transition: transform 0.1s ease;
 }
 
 /* шапка */
@@ -50,6 +51,16 @@ body {
   position: fixed;
   top: 4px;
   z-index: 1000;
+ animation: fade 0.3s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .header__nav {
@@ -125,9 +136,14 @@ body {
   align-items: center;
   gap: 20px;
   padding: 7px 110px;
+  transform-origin: center top;
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
 }
 
-
+.backscroll-header--show {
+  transform: scaleY(1);
+}
 
 .backscroll-header__text {
   font-weight: normal;
@@ -280,6 +296,7 @@ body {
 .content {
   background-color: #ffffff;
   padding: 150px 110px;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   gap: 120px;
@@ -297,6 +314,48 @@ body {
   flex-direction: row-reverse;
   margin-right: 0;
   margin-left: -110px;
+}
+
+/* текстовый блок */
+
+.content__text-wrap {
+  transform: translateX(-50px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0.3;
+}
+
+.content__text-wrap--animated {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.content__block--inverted .content__text-wrap {
+  transform: translateX(50px);
+}
+
+.content__block--inverted .content__text-wrap--animated {
+  transform: translateX(0px);
+}
+
+/* картинка */
+
+.content__image {
+  transform: translateX(50px);
+  opacity: 0.3;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.content__image--animated {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.content__block--inverted .content__image {
+  transform: translateX(-50px);
+}
+
+ .content__block--inverted .content__image--animated {
+  transform: translateX(0px);
 }
 
 .content__title {
@@ -318,6 +377,7 @@ body {
 .reviews {
   background-color: #e5e5e5;
   padding: 80px 110px;
+   overflow-x: hidden; 
 }
 
 .reviews__title {
