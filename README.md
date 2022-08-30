@@ -45,9 +45,10 @@ Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
 
 Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index.html)
 
-## Parallax
+## 3D and Parallax
 
 [404-page parallax](https://norzserge.github.io/animation/404-parallax/index.html)
+3D cude [animation](https://norzserge.github.io/animation/3D-cude/index.html)
 
 
 ## Pages
