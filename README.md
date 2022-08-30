@@ -49,7 +49,7 @@ Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index
 
 404-page [parallax](https://norzserge.github.io/animation/404-parallax/index.html)
 
-3D cude [animation](https://norzserge.github.io/animation/3D-cude/index.html)
+3D cude infinite [animation](https://norzserge.github.io/animation/3D-cude/index.html)
 
 
 ## Pages
