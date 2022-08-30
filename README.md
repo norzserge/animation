@@ -45,6 +45,11 @@ Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
 
 Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index.html)
 
+## Parallax
+
+[404-page parallax](https://norzserge.github.io/animation/404-parallax/index.html)
+
+
 ## Pages
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
 
