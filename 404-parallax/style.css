@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.error {
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.error__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109%;
+  text-align: center;
+  color: #2C2C2C;
+  margin: 0;
+  position: relative;
+  z-index: 100;
+}
+
+.error__description {
+  max-width: 435px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  z-index: 100;
+}
+
+.parallax {
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+.parallax__layer {
+  position: absolute;
+  z-index: 10;
+
+  transition: transform 0.2s ease;
+}
+
+.parallax__image {
+  width: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+.parallax__layer--1 {
+  width: 110%;
+  top: 0;
+}
+
+.parallax__layer--2 {
+  width: 110%;
+  bottom: 0;
+}
+
+.parallax__layer--3 {
+  top: calc(50% - 350px);
+}
+
+.parallax__layer--4 {
+  left: -90px;
+  bottom: -190px;
+  z-index: 13;
+}
+
+.parallax__layer--5 {
+  right: -100px;
+  bottom: -100px;
+  z-index: 12;
+}
+
+@media (max-width: 767px) {
+  .parallax__layer--4 {
+    width: 50%;
+    left: -10%;
+    bottom: -13%;
+  }
+
+  .parallax__layer--5 {
+    width: 50%;
+    right: -9%;
+    bottom: -7%;
+  }
+}
