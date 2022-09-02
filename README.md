@@ -51,6 +51,17 @@ Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index
 
 3D cude infinite [animation](https://norzserge.github.io/animation/3D-cude/index.html)
 
+При изменении положения элемента по оси `Z` можно столкнуться с не самым приятным эффектом. Его размер будет меняться при отдалении или приближении к вьюпорту. Однако мы можем легко справиться с этой проблемой. Чтобы показывать элемент в реальном размере, следует применить к нему трансформацию `scale()`.
+
+Для вычисления коэффициента масштабирования `scale` применяется следующая формула: `1 + (translateZ * -1) / perspective`.
+
+То есть если свойство perspective равно 1px и мы передвигаем элемент по оси Z на -2px, то коэффициент будет равен трём:
+```
+.layer {
+  transform: translateZ(-2px) scale(3);
+}
+```
+3D card [flipping on hover](https://norzserge.github.io/animation/backflip-3d-hover-card/index.html)
 
 ## Pages
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
