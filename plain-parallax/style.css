@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0px;
+  margin: 0;
+  background-color: #333333;
+}
+
+.wrap {
+  height: 150vh;
+  max-height: 100%;
+  padding: 0 calc(50% - 960px / 2);
+
+  overflow-x: hidden;
+
+  perspective: 100px;
+  perspective-origin: center top;
+  transform-style: preserve-3d;
+}
+
+.header {
+  height: 80vh;
+  position: relative;
+  transform-style: preserve-3d;
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.header::before{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+
+  background: url("https://picsum.photos/id/1042/1200/600");
+  background-size: cover;
+  background-position: center center;
+
+  transform: translateZ(-200px) translateX(-15px) translateY(600px) scale(3);
+}
+
+.header__title {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  left: 20%;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-shadow: 4px 4px 0 #040013;
+
+  transform: translateZ(-90px) translateY(100%) scale(1.8);
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 25%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  font-weight: normal;
+  font-size: 36px;
+  text-shadow: 2px 2px 0 #040013;
+
+  transform: translateZ(-100px) translateY(160%) scale(2);
+}
+
+.content {
+  min-height: 200vh;
+  background-color: #ffffff;
+  transform: translateZ(0);
+  padding: 20px 10px;
+}
