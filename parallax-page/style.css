@@ -9,6 +9,7 @@ html, body {
 body {
   margin: 0;
 	padding: 0;
+  overflow-y: hidden;
 
   font-family: 'Manrope', Arial, sans-serif;
   font-size: 16px;
@@ -25,20 +26,49 @@ body {
 }
 
 .wrap {
+  min-width: 1440px;
   padding: 0 calc(50% - 1440px / 2);
   height: 150vh;
   max-height: 100%;
+  overflow-x: hidden;
+
+  perspective: 1px;
+  perspective-origin: center top;
+  transform-style: preserve-3d;
 }
 
 .header {
   height: 100vh;
-  background: url("./assets/header-bg.jpg");
+  position: relative;
+
+  transform-style: preserve-3d;
+}
+
+.header::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: url("header-bg.jpg");
   background-size: cover;
   background-position: center center;
 
-  position: relative;
-}
+  transform-origin: center top;
+  transform: translateZ(-0.9px) translateX(-8px) scale(1.89);}
 
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(-1px) translate(-290px, 310px) scale(2);  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 60.28%, rgba(118, 118, 118, 0.150505) 85.39%, rgba(189, 189, 189, 0.1) 100%);
+}
 
 .header__nav {
   position: absolute;
@@ -100,30 +130,21 @@ body {
   background-color: #43b031;
 }
 
-.header::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 60.28%, rgba(118, 118, 118, 0.150505) 85.39%, rgba(189, 189, 189, 0.1) 100%);
-}
-
 .header__box {
   position: absolute;
   width: 64%;
   padding: 0 110px;
-  z-index: 2;
-  top: 50%;
+  z-index: 5;
+  bottom: 50%;
   left: 0;
-  transform: translateY(-50%);
 
   color: #ffffff;
 
   display: grid;
   grid-template-columns: 1fr 60px;
 
+  transform-origin: center top;
+  transform: translateZ(-1px) translate(-270px, 340px) scale(2);
 }
 
 .header__title {
@@ -170,6 +191,7 @@ body {
 /* Контент */
 .content {
   background-color: #ffffff;
+  transform: translateZ(0);
 
   padding: 150px 110px;
   display: flex;
