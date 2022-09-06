@@ -63,7 +63,9 @@ Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index
 ```
 3D card [flipping on hover](https://norzserge.github.io/animation/backflip-3d-hover-card/index.html)
 
-Plain [parallax effect](https://norzserge.github.io/animation/plain-parallax/index.html)
+Plain [parallax effect](https://norzserge.github.io/animation/plain-parallax/index.html) in background
+
+[Parallax effect](https://norzserge.github.io/animation/parallax/index.html)
 
 Fixed [background](https://norzserge.github.io/animation/fixed-bg/index.html)
 
