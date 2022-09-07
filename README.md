@@ -73,3 +73,5 @@ Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-scroll-animations/index.html) with scroll animation
 
 Page with [3D product cards](https://norzserge.github.io/animation/3D-cards/index.html)
+
+Page with [parallax header](https://norzserge.github.io/animation/parallax-page/index.html)
