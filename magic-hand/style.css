@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+  margin: 0;
+}
+
+.parallax {
+  overflow: hidden;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.parallax__assets {
+  min-height: 100vh;
+  position: relative;
+
+  transform-style: preserve-3d;
+  perspective: 4000px;
+
+  transition: transform 0.3s ease;
+}
+
+.parallax__layer {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.parallax__layer--0 {
+  transform: translateZ(0) scale(1.1);
+}
+
+.parallax__layer--1 {
+  transform: translateZ(300px) translateY(5%);
+}
+
+.parallax__layer--2 {
+  transform: translateZ(600px);
+}
