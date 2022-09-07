@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+  margin: 0;
+}
+
+.parallax__assets {
+  min-height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(225.1deg, #919890 28.61%, rgba(209, 209, 209, 0) 84.24%);
+}
+
+.parallax__layer {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parallax__layer--1 {
+  background-image: url('assets/clouds.png');
+}
+
+.parallax__layer--2 {
+  background-image: url('assets/greenhouse.png');
+  background-position: center top 25%;
+  background-size: 70%;
+}
+
+.parallax__layer--3 {
+  background-image: url('assets/house.png');
+  background-position: center bottom;
+}
+
+.parallax__layer--4 {
+  background-image: url('assets/bottom.png');
+  background-position: center bottom;
+}
