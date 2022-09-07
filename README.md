@@ -55,7 +55,7 @@ Plain [parallax effect](https://norzserge.github.io/animation/plain-parallax/ind
 
 Fixed [background](https://norzserge.github.io/animation/fixed-bg/index.html)
 
-[Parallax](https://norzserge.github.io/animation/magic-hand/index.html) with JS (magic hand)
+Parallax with JS [(magic hand)](https://norzserge.github.io/animation/magic-hand/index.html)
 
 ## Other animations
 
