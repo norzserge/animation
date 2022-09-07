@@ -57,6 +57,8 @@ Fixed [background](https://norzserge.github.io/animation/fixed-bg/index.html)
 
 Parallax with JS [(magic hand)](https://norzserge.github.io/animation/magic-hand/index.html)
 
+Animated [cards](https://norzserge.github.io/animation/animated-cards/index.html) (with mouse move)
+
 ## Other animations
 
 Elements animation in [product card](https://norzserge.github.io/animation/product-card/index.html)
