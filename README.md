@@ -79,3 +79,5 @@ Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index
 Page with [3D product cards](https://norzserge.github.io/animation/3D-cards/index.html)
 
 Page with [parallax header](https://norzserge.github.io/animation/parallax-page/index.html)
+
+[First screen](https://norzserge.github.io/animation/first-screen-parallax/index.html) with parallax effect
