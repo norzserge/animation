@@ -71,7 +71,7 @@ Animation for [popup](https://norzserge.github.io/animation/popup/index.html)
 
 Plain vertical [accordion](https://norzserge.github.io/animation/accordion/index.html)
 
-## Full pages
+## Pages with animations
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-animations/index.html) with animation
 
 [Rental landing page](https://norzserge.github.io/animation/rental-page-with-scroll-animations/index.html) with scroll animation
