@@ -37,16 +37,6 @@ Change [body background](https://norzserge.github.io/animation/change-bg-with-sc
 
 3D cude infinite [animation](https://norzserge.github.io/animation/3D-cude/index.html)
 
-При изменении положения элемента по оси `Z` можно столкнуться с не самым приятным эффектом. Его размер будет меняться при отдалении или приближении к вьюпорту. Однако мы можем легко справиться с этой проблемой. Чтобы показывать элемент в реальном размере, следует применить к нему трансформацию `scale()`.
-
-Для вычисления коэффициента масштабирования `scale` применяется следующая формула: `1 + (translateZ * -1) / perspective`.
-
-То есть если свойство perspective равно 1px и мы передвигаем элемент по оси Z на -2px, то коэффициент будет равен трём:
-```
-.layer {
-  transform: translateZ(-2px) scale(3);
-}
-```
 3D card [flipping on hover](https://norzserge.github.io/animation/backflip-3d-hover-card/index.html)
 
 Plain [parallax effect](https://norzserge.github.io/animation/plain-parallax/index.html) in background
@@ -58,6 +48,17 @@ Fixed [background](https://norzserge.github.io/animation/fixed-bg/index.html)
 Parallax with JS [(magic hand)](https://norzserge.github.io/animation/magic-hand/index.html)
 
 Animated [cards](https://norzserge.github.io/animation/animated-cards/index.html) (with mouse move)
+
+При изменении положения элемента по оси `Z` можно столкнуться с не самым приятным эффектом. Его размер будет меняться при отдалении или приближении к вьюпорту. Однако мы можем легко справиться с этой проблемой. Чтобы показывать элемент в реальном размере, следует применить к нему трансформацию `scale()`.
+
+Для вычисления коэффициента масштабирования `scale` применяется следующая формула: `1 + (translateZ * -1) / perspective`.
+
+То есть если свойство perspective равно 1px и мы передвигаем элемент по оси Z на -2px, то коэффициент будет равен трём:
+```
+.layer {
+  transform: translateZ(-2px) scale(3);
+}
+```
 
 ## Other animations
 
