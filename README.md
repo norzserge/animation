@@ -81,3 +81,9 @@ Page with [3D product cards](https://norzserge.github.io/animation/3D-cards/inde
 Page with [parallax header](https://norzserge.github.io/animation/parallax-page/index.html)
 
 [First screen](https://norzserge.github.io/animation/first-screen-parallax/index.html) with parallax effect
+
+## Interesting source with animation
+
+- [Animate.css](https://animate.style/) lib
+- [cssanimation.io](https://cssanimation.io) generator
+- [Animista](https://animista.net) generator
